@@ -1,15 +1,15 @@
-## GKGL-PE: a GNN-based Knowledge Graph Learning framework for Pathway Embedding
+## A Spectral Pretraining and Attention-Based Graph Framework for Pathway Embedding and Prediction
 
-This repository contains the code for our paper, "GKGL-PE: A GNN-based Knowledge Graph Learning Framework for Pathway Embedding," published at the International Conference on Intelligent Biology and Medicine (ICIBM) 2024, held from October 10-12, 2024 in Houston, Texas, United States.
+This repository contains the code for our paper, "A Spectral Pretraining and Attention-Based Graph Framework for Pathway Embedding and Prediction".
 
-![Alt text](images/gkgl-pe_framework.png)
+![Alt text](images/framework.png)
 
 ## Data resources
 The different dataset and KG used in this project are located in data directory. These files include:
 
--) The data about pathways from https://reactome.org/download/current/ReactomePathways.txt, relationships between pathways from https://reactome.org/download/current/ReactomePathwaysRelation.txt and pathway-protein relations from https://reactome.org/download/current/NCBI2Reactome.txt on 24 March 2024.
+-) The data about pathways from https://reactome.org/download/current/ReactomePathways.txt, relationships between pathways from https://reactome.org/download/current/ReactomePathwaysRelation.txt and pathway-protein relations from https://reactome.org/download/current/NCBI2Reactome.txt on 25 October, 2025.
 
--) The built knowledge graph including pathway-pathway and pathway-protein relationships.
+-) The built knowledge graph including pathway-pathway and gene-pathway relationships.
 
 ## Setup
 
